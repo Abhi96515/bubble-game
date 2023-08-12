@@ -78,3 +78,11 @@ html,body{
     background-color: rgb(138, 209, 138);
     cursor: pointer;
 }
+.scores{
+    color: black;
+    
+}
+span{
+    
+    color: red;
+}

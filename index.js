@@ -1,4 +1,4 @@
-var timer=60
+var timer=30
 var hitrun=0
 var score=0
 
@@ -20,7 +20,9 @@ function timmerChange(){
     document.querySelector('#Time').textContent=timer
     }else{
         clearInterval(setTimeinit)
-        document.querySelector('#pbtn').innerHTML=`<h1>Game Over</h1>`
+        document.querySelector('#pbtn').innerHTML=`<h1>Game Over</h1> <br>
+         <h1 class='scores' >Your Score is <span>${score}<span> </h1>`
+        // document.querySelector('#pbtn').innerHTML=`<h1 class='scores' >Your Score is ${score}</h1>`
     }
   }, 1000);
 }
